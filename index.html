@@ -1,56 +1,28 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-  <link rel="icon" type="image/png" href="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Firefox_Nightly_logo%2C_2019.svg/1200px-Firefox_Nightly_logo%2C_2019.svg.png" />
-  <title>Home</title>
-  <link rel="stylesheet" href="/css/style.css">
-</head>
-
-<body>
-  <div class="container">
-    <div class="prompt">[<span>burg0</span>@<span>home</span> ~]$ tree</div>
-    <div class="tree">
-      <h1>.</h1>
-      <ul>
-        <li>
-          <h1>utility</h1>
-          <ul>
-            <li><a href="https://tinylist.app/" target="_top">tinylist</a></li>
-            <li><a href="https://privacytools.io/" target="_top">privacytools</a></li>
-            <li><a href="https://mail.google.com/" target="_top">gmail</a></li>
-            <li><a href="https://mail.protonmail.com/" target="_top">protonmail</a></li>
-          </ul>
-        </li>
-        <li>
-          <h1>streaming</h1>
-          <ul>
-            <li><a href="https://www.netflix.com/browse" target="_top">netflix</a></li>
-            <li><a href="https://www.primevideo.com/" target="_top">prime</a></li>
-            <li><a href="https://www.youtube.com/" target="_top">youtube</a></li>
-            <li><a href="https://www.twitch.tv/" target="_top">twitch</a></li>
-          </ul>
-        </li>
-        <li>
-          <h1>varie</h1>
-          <ul>
-            <li><a href="https://www.reddit.com/" target="_top">reddit</a></li>
-            <li><a href="https://www.amazon.it/" target="_top">amazon</a></li>
-            <li><a href="https://www.allkeyshop.com/" target="_top">allkeyshop</a></li>
-            <li><a href="https://streamelements.com/" target="_top">streamelements</a></li>
-            <li><a href="https://unsplash.com/" target="_top">unsplash</a></li>
-          </ul>
-        </li>
-      </ul>
-    </div>
-    <div class="prompt">[<span>burg0</span>@<span>home</span> ~]$ qwant</div>
-    <form action="https://qwant.com/" method="GET" autocomplete="off" target="_top">
-      <h1>search: </h1>
-      <input type="text" name="q" autofocus="autofocus">
-    </form>
-  </div>
-</body>
-
-</html>
+ <html>
+ <head>
+	<meta charset="utf-8">
+	<link rel="icon" type="image/png" href="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Firefox_Nightly_logo%2C_2019.svg/1200px-Firefox_Nightly_logo%2C_2019.svg.png" />
+	<link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+	<script src="https://kit.fontawesome.com/f00c14539b.js" crossorigin="anonymous"></script>
+	<title>Home</title>
+ </head>
+ <body>
+	<div class="container">
+		<div id="time" class="time"></div>
+		
+		<form action="http://www.qwant.com/" method="GET" autocomplete="off" target="_top">
+			<input type="text" name="q" class="search-field" autofocus="autofocus">
+			<button type="submit" class="search-submit" value="" style="fill: white"></button>
+		</form>	
+	
+	<div class="wave-container">
+		<div class="wave wave1"></div>
+		<div class="wave wave2"></div>
+		<div class="wave wave3"></div>
+		<div class="wave wave4"></div>
+	</div>
+	
+	<script src="script.js"></script>
+	
+ </body>
+ </html>
