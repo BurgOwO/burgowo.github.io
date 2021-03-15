@@ -17,7 +17,7 @@
 }
 
 body {
-	background-color: #252934;
+	background-color: #241b2f;
 	color: white;
 }
 
@@ -112,7 +112,7 @@ a, a:visited, a:hover {
 /* ------------- SEARCH STYLING ------------- */ 
 
 .container form {
-	background-color: #2E3441;
+	background-color: #2a2139;
 	border-radius: 5px;
 	width: 450px;
 	margin-bottom: 80px;
