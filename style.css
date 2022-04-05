@@ -145,7 +145,7 @@ a, a:visited, a:hover {
 }
 
 .container form .search-submit::before {
-	background-image:url(qwant.svg);
+	background-image:url(search.svg);
 	background-position:center center;
 	fill: white;
 	content:"";
